@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405416162AE66D7F00E936DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416152AE66D7F00E936DF /* AppDelegate.swift */; };
+		4054161A2AE66D7F00E936DF /* CyclingStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416192AE66D7F00E936DF /* CyclingStationViewController.swift */; };
+		4054161F2AE66D8100E936DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4054161E2AE66D8100E936DF /* Assets.xcassets */; };
+		405416222AE66D8100E936DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405416202AE66D8100E936DF /* LaunchScreen.storyboard */; };
+		405416302AE66E8700E936DF /* LocationPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054162F2AE66E8700E936DF /* LocationPermission.swift */; };
+		405416322AE66EBB00E936DF /* CyclingStationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416312AE66EBB00E936DF /* CyclingStationViewModel.swift */; };
+		405416392AE67EF700E936DF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416382AE67EF700E936DF /* NetworkService.swift */; };
+		4054163C2AE6842C00E936DF /* NextbikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054163B2AE6842C00E936DF /* NextbikeModel.swift */; };
+		4054163E2AE6949800E936DF /* CyclingStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054163D2AE6949800E936DF /* CyclingStationTableViewCell.swift */; };
+		405416412AE694DA00E936DF /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416402AE694DA00E936DF /* UILabel.swift */; };
+		405416432AE697D300E936DF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416422AE697D300E936DF /* UIView.swift */; };
+		405416452AE6BC1700E936DF /* CyclingStationModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416442AE6BC1700E936DF /* CyclingStationModelProtocol.swift */; };
+		405416472AE6BC5200E936DF /* LocationPermissionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405416462AE6BC5200E936DF /* LocationPermissionProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		405416122AE66D7F00E936DF /* Vlad-Loktionov_TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vlad-Loktionov_TestTask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405416152AE66D7F00E936DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		405416192AE66D7F00E936DF /* CyclingStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingStationViewController.swift; sourceTree = "<group>"; };
+		4054161E2AE66D8100E936DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405416212AE66D8100E936DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		405416232AE66D8100E936DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4054162F2AE66E8700E936DF /* LocationPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationPermission.swift; path = ../Model/LocationPermission.swift; sourceTree = "<group>"; };
+		405416312AE66EBB00E936DF /* CyclingStationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingStationViewModel.swift; sourceTree = "<group>"; };
+		405416382AE67EF700E936DF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4054163B2AE6842C00E936DF /* NextbikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextbikeModel.swift; sourceTree = "<group>"; };
+		4054163D2AE6949800E936DF /* CyclingStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingStationTableViewCell.swift; sourceTree = "<group>"; };
+		405416402AE694DA00E936DF /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		405416422AE697D300E936DF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		405416442AE6BC1700E936DF /* CyclingStationModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingStationModelProtocol.swift; sourceTree = "<group>"; };
+		405416462AE6BC5200E936DF /* LocationPermissionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4054160F2AE66D7F00E936DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405416092AE66D7F00E936DF = {
+			isa = PBXGroup;
+			children = (
+				405416142AE66D7F00E936DF /* Vlad-Loktionov_TestTask */,
+				405416132AE66D7F00E936DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405416132AE66D7F00E936DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405416122AE66D7F00E936DF /* Vlad-Loktionov_TestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405416142AE66D7F00E936DF /* Vlad-Loktionov_TestTask */ = {
+			isa = PBXGroup;
+			children = (
+				405416292AE66DD100E936DF /* Application */,
+				405416372AE66FD300E936DF /* NetworkLayer */,
+				4054163A2AE6840700E936DF /* APIModels */,
+				4054162A2AE66DD300E936DF /* HelperClasses */,
+				4054162B2AE66DD600E936DF /* Model */,
+				4054162C2AE66DD900E936DF /* View */,
+				4054162D2AE66DDC00E936DF /* ViewModel */,
+				4054163F2AE694BE00E936DF /* Helpers  */,
+				4054162E2AE66DF700E936DF /* Resources */,
+			);
+			path = "Vlad-Loktionov_TestTask";
+			sourceTree = "<group>";
+		};
+		405416292AE66DD100E936DF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				405416152AE66D7F00E936DF /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4054162A2AE66DD300E936DF /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4054162F2AE66E8700E936DF /* LocationPermission.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		4054162B2AE66DD600E936DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				405416442AE6BC1700E936DF /* CyclingStationModelProtocol.swift */,
+				405416462AE6BC5200E936DF /* LocationPermissionProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4054162C2AE66DD900E936DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4054163D2AE6949800E936DF /* CyclingStationTableViewCell.swift */,
+				405416192AE66D7F00E936DF /* CyclingStationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4054162D2AE66DDC00E936DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				405416312AE66EBB00E936DF /* CyclingStationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4054162E2AE66DF700E936DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4054161E2AE66D8100E936DF /* Assets.xcassets */,
+				405416202AE66D8100E936DF /* LaunchScreen.storyboard */,
+				405416232AE66D8100E936DF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		405416372AE66FD300E936DF /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				405416382AE67EF700E936DF /* NetworkService.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		4054163A2AE6840700E936DF /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				4054163B2AE6842C00E936DF /* NextbikeModel.swift */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		4054163F2AE694BE00E936DF /* Helpers  */ = {
+			isa = PBXGroup;
+			children = (
+				405416402AE694DA00E936DF /* UILabel.swift */,
+				405416422AE697D300E936DF /* UIView.swift */,
+			);
+			path = "Helpers ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405416112AE66D7F00E936DF /* Vlad-Loktionov_TestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405416262AE66D8100E936DF /* Build configuration list for PBXNativeTarget "Vlad-Loktionov_TestTask" */;
+			buildPhases = (
+				4054160E2AE66D7F00E936DF /* Sources */,
+				4054160F2AE66D7F00E936DF /* Frameworks */,
+				405416102AE66D7F00E936DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vlad-Loktionov_TestTask";
+			productName = "Vlad-Loktionov_TestTask";
+			productReference = 405416122AE66D7F00E936DF /* Vlad-Loktionov_TestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4054160A2AE66D7F00E936DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					405416112AE66D7F00E936DF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4054160D2AE66D7F00E936DF /* Build configuration list for PBXProject "Vlad-Loktionov_TestTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405416092AE66D7F00E936DF;
+			productRefGroup = 405416132AE66D7F00E936DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405416112AE66D7F00E936DF /* Vlad-Loktionov_TestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405416102AE66D7F00E936DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405416222AE66D8100E936DF /* LaunchScreen.storyboard in Resources */,
+				4054161F2AE66D8100E936DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4054160E2AE66D7F00E936DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4054163E2AE6949800E936DF /* CyclingStationTableViewCell.swift in Sources */,
+				4054161A2AE66D7F00E936DF /* CyclingStationViewController.swift in Sources */,
+				4054163C2AE6842C00E936DF /* NextbikeModel.swift in Sources */,
+				405416322AE66EBB00E936DF /* CyclingStationViewModel.swift in Sources */,
+				405416412AE694DA00E936DF /* UILabel.swift in Sources */,
+				405416432AE697D300E936DF /* UIView.swift in Sources */,
+				405416472AE6BC5200E936DF /* LocationPermissionProtocol.swift in Sources */,
+				405416162AE66D7F00E936DF /* AppDelegate.swift in Sources */,
+				405416452AE6BC1700E936DF /* CyclingStationModelProtocol.swift in Sources */,
+				405416392AE67EF700E936DF /* NetworkService.swift in Sources */,
+				405416302AE66E8700E936DF /* LocationPermission.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		405416202AE66D8100E936DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405416212AE66D8100E936DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405416242AE66D8100E936DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		405416252AE66D8100E936DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405416272AE66D8100E936DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZ6VK7448K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vlad-Loktionov_TestTask/Resources/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location for better app functionality. Please allow access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fullzoom.Vlad-Loktionov-TestTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		405416282AE66D8100E936DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZ6VK7448K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vlad-Loktionov_TestTask/Resources/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location for better app functionality. Please allow access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fullzoom.Vlad-Loktionov-TestTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4054160D2AE66D7F00E936DF /* Build configuration list for PBXProject "Vlad-Loktionov_TestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405416242AE66D8100E936DF /* Debug */,
+				405416252AE66D8100E936DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405416262AE66D8100E936DF /* Build configuration list for PBXNativeTarget "Vlad-Loktionov_TestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405416272AE66D8100E936DF /* Debug */,
+				405416282AE66D8100E936DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4054160A2AE66D7F00E936DF /* Project object */;
+}
