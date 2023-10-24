@@ -55,12 +55,4 @@ class CyclingStationTableViewCell: UITableViewCell {
         latitudeLabel.text = "\(model.latitude)"
         longitudeLabel.text = "\(model.longitude)"
     }
-    
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        bikeNameLabel.text = nil
-        cyclingCountLabel.text = nil
-        latitudeLabel.text = nil
-        longitudeLabel.text = nil
-    }
 }
